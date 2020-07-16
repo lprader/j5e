@@ -5,16 +5,16 @@ const button = await new Button(14);
 const led = await new LED(12);
 
 button.on("open", function() {
-  trace("off");
+  console.log("off");
   led.stop().off();
 });
 
 button.on("close", function() {
-  trace("on");
+  console.log("on");
   led.on();
 });
 
 button.on("hold", function() {
-  trace("hold");
+  console.log("hold");
   led.blink();
 })
