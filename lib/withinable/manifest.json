@@ -1,0 +1,18 @@
+{
+  "include": [],
+  "modules": {
+    "*": [],
+    "j5e/event": "$(j5e)/lib/event/*",
+    "j5e/withinable": "$(j5e)/lib/withinable/*"
+  },
+  "preload": [
+    "j5e/event",
+    "j5e/withinable"
+  ],
+  "platforms": {
+    "esp": {},
+    "...": {
+      "error": "Experimental TC53 IO modules unsupported"
+    }
+  }
+}
