@@ -19,7 +19,8 @@
 		"$(LIB)/rgb/manifest.json",
 		"$(LIB)/sensor/manifest.json",
 		"$(LIB)/servo/manifest.json",
-		"$(LIB)/switch/manifest.json"
+		"$(LIB)/switch/manifest.json",
+		"$(LIB)/withinable/manifest.json"
 	],
 	"modules": {
 		"*": [
